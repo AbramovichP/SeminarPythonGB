@@ -5,3 +5,12 @@
 #- 6 -> да
 #- 7 -> да
 #- 1 -> нет
+
+numDay = int(input('Введите число дня недели: '))
+if numDay <= 0 or numDay > 7:
+    print('Нет такого дня недели!')
+elif numDay >= 1 and numDay <= 5:
+    print('Нет')
+else:
+    print('Да')
+    
