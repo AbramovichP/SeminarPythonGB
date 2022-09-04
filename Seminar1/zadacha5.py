@@ -3,9 +3,9 @@
 #Пример:
 #- A (3,6); B (2,1) -> 5,09
 #- A (7,-5); B (1,-1) -> 7,21
+import math
 
 def distance_between_points(ax,ay,bx,by):
-    import math
     AC = bx - ax
     BC = by - ay
     AB = math.sqrt(AC**2 + BC**2)

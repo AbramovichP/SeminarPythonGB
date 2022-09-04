@@ -6,8 +6,6 @@
 #- 7 -> да
 #- 1 -> нет
 
-
-
 def DayOfTheWeek (n):
     if numDay <= 0 or numDay > 7:
      print('Нет такого дня недели!')
