@@ -6,11 +6,14 @@
 #- 7 -> да
 #- 1 -> нет
 
-numDay = int(input('Введите число дня недели: '))
-if numDay <= 0 or numDay > 7:
-    print('Нет такого дня недели!')
-elif numDay >= 1 and numDay <= 5:
-    print('Нет')
-else:
-    print('Да')
-    
+
+
+def DayOfTheWeek (n):
+    if numDay <= 0 or numDay > 7:
+     print('Нет такого дня недели!')
+    elif numDay >= 1 and numDay <= 5:
+        print('Нет')
+    else:
+        print('Да')
+numDay = int(input('Введите число дня недели: '))    
+DayOfTheWeek(numDay)
