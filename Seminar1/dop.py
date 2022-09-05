@@ -6,7 +6,7 @@ def fibonachchi(n):
     for i in range(n+1):
         fib.append(i)
 
-    i = 3
+    i = 2
     while i < len(fib):
         fib[i] = fib[i-1] + fib[i-2]
         i+=1
