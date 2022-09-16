@@ -13,7 +13,7 @@ def sum_of_integers(arr):
     return sum
 
 n = int(input('Введите число: '))
-while n < 0 or n > 10**4:
+while n < 0 or n > 10 ** 4:
     print('Число должно быть больше нуля и меньше 10000')
     n = int(input('Введите число: '))
 result = sum_of_integers(array_of_integer(n))
