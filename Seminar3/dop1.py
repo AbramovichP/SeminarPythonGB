@@ -3,7 +3,7 @@
 def fibonachi(n):
     fib = [0,1]
     temp = 2
-    for i in range(n+1):
+    for i in range(n-1):
         fib.append(fib[temp-1] + fib[temp -2])
         temp +=1 
     return fib
