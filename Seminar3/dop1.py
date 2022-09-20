@@ -15,7 +15,7 @@ def negofibonachi(arr):
     negfib1 = negfib[::-1]
     return negfib1
 
-n = int(input())
+n = int(input('Введите число: '))
 fib = fibonachi(n)
 negfib = negofibonachi(fibonachi(n))
 fib.pop(0)
